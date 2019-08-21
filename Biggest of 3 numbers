@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+ int a,b,c,big=0;
+ printf("A:");
+ scanf("%d",&a);
+ printf("B:");
+  scanf("%d",&b);
+  printf("C:");
+  scanf("%d",&c);
+  if(a>big)
+   big=a;
+   if(b>big)
+   big=b;
+   if(c>big)
+   big=c;
+   printf("%d",big);
+   getch();
+   }  
